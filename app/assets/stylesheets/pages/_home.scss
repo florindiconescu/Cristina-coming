@@ -58,3 +58,30 @@
   }
 }
 
+@media all and (max-width: 940px) {
+  .home {
+    display: block;
+    margin: 65px 55px;
+    height: auto;
+    transform: rotate(8deg);
+
+  }
+  .home-frame {
+    min-height: 328px;
+    h2 {
+      font-size: 32px;
+    }
+    h2:after {
+      top: 60px;
+      left: 16px;
+    background-size: 50%;
+
+    }
+  }
+  .home-right-panel {
+    .home-right-panel-content {
+      margin-top: 0;
+    }
+  }
+}
+
